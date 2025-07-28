@@ -1,48 +1,36 @@
 from abc import ABC, abstractmethod
-import random
 import logging
 from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
-from typing import Dict, Optional, Union, List
+from typing import Dict, Optional
 import requests
 import re
 
 class BaseWineScraper(ABC):
-    def __init__(self, proxies: Optional[Union[Dict[str, str], List[Dict[str, str]]]] = None):
+    def __init__(self, proxy: Optional[str] = None):
         self.session = requests.Session()
         self.headers = {'User-Agent': UserAgent().random}
         self.logger = logging.getLogger(self.__class__.__name__)
         
-        if proxies:
-            if isinstance(proxies, list):
-                self.proxies = proxies
-                self.current_proxy_idx = 0
-            else:
-                self.proxies = [proxies]
-                self.current_proxy_idx = 0
-        else:
-            self.proxies = None
-
-    def get_next_proxy(self) -> Optional[Dict[str, str]]:
-        if not self.proxies:
-            return None
-        proxy = self.proxies[self.current_proxy_idx]
-        self.current_proxy_idx = (self.current_proxy_idx + 1) % len(self.proxies)
-        return proxy
+        # Convert proxy string to proper dictionary format
+        self.proxy = {'http': proxy, 'https': proxy} if proxy else None
 
     def get_wine(self, url: str, max_retries: int = 2) -> Optional[Dict[str, str]]:
         try:
-            proxy = self.get_next_proxy()
-            request_kwargs = {'headers': self.headers, 'timeout': 30}
-            if proxy:
-                request_kwargs['proxies'] = proxy
+            request_kwargs = {
+                'headers': self.headers,
+                'timeout': 30
+            }
+            
+            if self.proxy:
+                request_kwargs['proxies'] = self.proxy
                 
             response = self.session.get(url, **request_kwargs)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            #404: Looks like we'll need another bottle
+            # 404: Looks like we'll need another bottle
             error_header = soup.find('h1', class_='error-page-header')
             if error_header:
                 self.logger.warning(f"Error page detected for URL: {url}")
@@ -63,7 +51,7 @@ class BaseWineScraper(ABC):
             self.logger.warning(f"Max retries reached for URL: {original_url}")
             return None
             
-        #any 4-digit year from URL
+        # any 4-digit year from URL
         year_match = re.search(r'/(\d{4})/', original_url)
         if not year_match:
             self.logger.warning(f"No year found in URL to retry: {original_url}")
