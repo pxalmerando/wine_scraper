@@ -1,81 +1,42 @@
-Producer,Wine name,Country ,Region, Vintage,Wine Color,Price,ABV%,Vivino rating,Vivino URL,Winesearcher URL,UK seller,Uk seller same vintage lowest,Uk seller same vintage Highest,Uk seller previous vintage lowest,Uk seller previous vintage highest,
-,20 MILLE,,BORDEAUX SUPERIEUR,2011,ROUGE,18.00,15,,,,,,,,,
-,BALTHUS,,BORDEAUX SUPERIEUR,2005,ROUGE,45.00,14,,,,,,,,,
-,CHATEAU CROIX-MOUTON,,BORDEAUX SUPERIEUR,2018,ROUGE,6.60,"13,5",,,,,,,,,
-,CHATEAU CROIX-MOUTON,,BORDEAUX SUPERIEUR,2020,ROUGE,6.30,14,,,,,,,,,
-,CHATEAU CROIX-MOUTON,,BORDEAUX SUPERIEUR,2021,ROUGE,6.00€,"13,5",,,,,,,,,6.00€
-,CHATEAU CROIX-MOUTON CUVEE JOSEPH,,BORDEAUX SUPERIEUR,2021,ROUGE,6.60€,14,,,,,,,,,6.60€
-,CHATEAU MARJOSSE,,BORDEAUX,2020,ROUGE,5.95,"14,5",,,,,,,,,
-,CHATEAU MARJOSSE,,BORDEAUX,2021,ROUGE,5.70€,13,,,,,,,,,5.70€
-,CHATEAU MARJOSSE,,BORDEAUX,2022,ROUGE,6.25,"14,5",,,,,,,,,
-,CHATEAU MONT PERAT,,BORDEAUX,2021,ROUGE,8.30€,13,,,,,,,,,8.30€
-,CHATEAU MONT PERAT,,BORDEAUX,2022,ROUGE,9.30,"14,5",,,,,,,,,
-,GIROLATE,,BORDEAUX,2010,ROUGE,36.00,"14,5",,,,,,,,,
-,GIROLATE,,BORDEAUX,2016,ROUGE,30.00,"14,5",,,,,,,,,
-,LE B PAR MAUCAILLOU,,BORDEAUX SUPERIEUR,2020,ROUGE,4.35,"13,5",,,,,,,,,
-,CHATEAU ALCEE,,CASTILLON-COTES DE BORDEAUX,2020,ROUGE,10.95,"14,5",,,,,,,,,
-,CHATEAU ALCEE,,CASTILLON-COTES DE BORDEAUX,2022,ROUGE,12.00,"14,5",,,,,,,,,
-,CHATEAU BEL-AIR EIFFEL HERITIERS GUSTAVE EIFFEL,,GRAVES DE VAYRES,2020,ROUGE,12.00,"13,5",,,,,,,,,
-,CHATEAU BELLE COLINE,,BLAYE-COTES DE BORDEAUX,2014,ROUGE,7.00,"13,5",,,,,,,,,
-,CHATEAU D'AIGUILHE,,CASTILLON-COTES DE BORDEAUX,2017,ROUGE,14.30€,14,,,,,,,,,14.30€
-,CHATEAU D'AIGUILHE,,CASTILLON-COTES DE BORDEAUX,2021,ROUGE,11.40€,"13,5",,,,,,,,,11.40€
-,CHATEAU D'AIGUILHE,,CASTILLON-COTES DE BORDEAUX,2022,ROUGE,13.45,14,,,,,,,,,
-,CHATEAU DE BIROT,,COTES DE BORDEAUX,2011,ROUGE,4.50,"13,5",,,,,,,,,
-,CHATEAU GIGAULT CUVEE NATURE,,BLAYE-COTES DE BORDEAUX,2020,ROUGE,4.70,14,,,,,,,,,
-,CHATEAU GIGAULT CUVEE VIVA,,BLAYE-COTES DE BORDEAUX,2005,ROUGE,9.50,14,,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2011,ROUGE,12.60,14,,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2013,ROUGE,10.95€,13,,,,,,,,,10.95€
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2014,ROUGE,12.00,"13,5",,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2014,ROUGE,12.00,"13,5",,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2017,ROUGE,9.90€,"13,5",,,,,,,,,9.90€
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2018,ROUGE,13.80,"14,5",,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2019,ROUGE,12.00,"14,5",,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2020,ROUGE,12.60,14,,,,,,,,,
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2021,ROUGE,12.00€,13,,,,,,,,,12.00€
-,CHATEAU JOANIN BECOT,,CASTILLON-COTES DE BORDEAUX,2022,ROUGE,14.00,"14,5",,,,,,,,,
-,CHATEAU JOANIN BECOT (DRAGON),,CASTILLON-COTES DE BORDEAUX,2014,ROUGE,8.50€,"13,5",,,,,,,,,8.50€
-,CHATEAU JOANIN BECOT (PHOENIX),,CASTILLON-COTES DE BORDEAUX,2014,ROUGE,8.50€,"13,5",,,,,,,,,8.50€
-,CHATEAU MONTLANDRIE,,CASTILLON-COTES DE BORDEAUX,2013,ROUGE,9.75€,"13,5",,,,,,,,,9.75€
-,CHATEAU MONTLANDRIE,,CASTILLON-COTES DE BORDEAUX,2017,ROUGE,13.70€,"14,5",,,,,,,,,13.70€
-,CHATEAU MONTLANDRIE,,CASTILLON-COTES DE BORDEAUX,2020,ROUGE,15.00,"14,5",,,,,,,,,
-,CHATEAU MONTLANDRIE,,CASTILLON-COTES DE BORDEAUX,2021,ROUGE,14.30€,14,,,,,,,,,14.30€
-,CHATEAU MONTLANDRIE,,CASTILLON-COTES DE BORDEAUX,2022,ROUGE,17.00,"14,5",,,,,,,,,
-,CHATEAU PUYGUERAUD,,FRANCS-COTES DE BORDEAUX,2007,ROUGE,7.80,"13,5",,,,,,,,,
-,CHATEAU PUYGUERAUD,,FRANCS-COTES DE BORDEAUX,2017,ROUGE,8.40€,"14,5",,,,,,,,,8.40€
-,CHATEAU PUYGUERAUD,,FRANCS-COTES DE BORDEAUX,2019,ROUGE,8.70,"14,5",,,,,,,,,
-,CHATEAU PUYGUERAUD,,FRANCS-COTES DE BORDEAUX,2020,ROUGE,9.25,"14,5",,,,,,,,,
-,CHATEAU PUYGUERAUD,,FRANCS-COTES DE BORDEAUX,2021,ROUGE,9.20€,14,,,,,,,,,9.20€
-,CHATEAU PUYGUERAUD,,FRANCS-COTES DE BORDEAUX,2022,ROUGE,9.65,"14,5",,,,,,,,,
-,CHATEAU REYNON,,CADILLAC-COTES BORDEAUX,2017,ROUGE,6.80€,"13,5",,,,,,,,,6.80€
-,CHATEAU REYNON,,CADILLAC-COTES BORDEAUX,2017,ROUGE,6.80€,"13,5",,,,,,,,,6.80€
-,CHATEAU REYNON,,CADILLAC-COTES BORDEAUX,2021,ROUGE,7.00€,"12,5",,,,,,,,,7.00€
-,CLOS PUY ARNAUD,,CASTILLON-COTES DE BORDEAUX,2005,ROUGE,25.00,14,,,,,,,,,
-,DOMAINE DE L'A,,CASTILLON-COTES DE BORDEAUX,2005,ROUGE,18.00,"13,8",,,,,,,,,
-,CHAPELLE DE POTENSAC,,MEDOC,2007,ROUGE,7.10,13,,,,,,,,,
-,CHAPELLE DE POTENSAC,,MEDOC,2016,ROUGE,8.00€,"13,5",,,,,,,,,8.00€
-,CHAPELLE DE POTENSAC,,MEDOC,2018,ROUGE,9.00,13,,,,,,,,,
-,CHAPELLE DE POTENSAC,,MEDOC,2019,ROUGE,9.00,"13,5",,,,,,,,,
-,CHATEAU LES GRANDS CHENES,,MEDOC,2016,ROUGE,10.20,14,,,,,,,,,
-,CHATEAU LES GRANDS CHENES,,MEDOC,2017,ROUGE,9.10€,"13,5",,,,,,,,,9.10€
-,CHATEAU LES GRANDS CHENES,,MEDOC,2020,ROUGE,8.85€,14,,,,,,,,,8.85€
-,CHATEAU LES GRANDS CHENES,,MEDOC,2021,ROUGE,9.40€,13,,,,,,,,,9.40€
-,CHATEAU LES GRANDS CHENES,,MEDOC,2021,ROUGE,9.40€,13,,,,,,,,,9.40€
-,CHATEAU LES GRANDS CHENES,,MEDOC,2021,ROUGE,9.40€,13,,,,,,,,,9.40€
-,CHATEAU POTENSAC,,MEDOC,1998,ROUGE,48.00,"12,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2003,ROUGE,30.00,"13,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2008,ROUGE,23.00,13,,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2011,ROUGE,20.00,"13,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2012,ROUGE,18.00,"13,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2014,ROUGE,17.00,"13,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2017,ROUGE,16.00€,13,,,,,,,,,16.00€
-,CHATEAU POTENSAC,,MEDOC,2018,ROUGE,18.00,"14,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2019,ROUGE,16.50,14,,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2020,ROUGE,16.20,"13,5",,,,,,,,,
-,CHATEAU POTENSAC,,MEDOC,2021,ROUGE,16.50,13,,,,,,,,,15.70€
-,CHATEAU POTENSAC,,MEDOC,2022,ROUGE,20.00,"14,5",,,,,,,,,
-,G D'ESTOURNEL,,MEDOC,2020,ROUGE,17.50,13,,,,,,,,,
-,G D'ESTOURNEL,,MEDOC,2021,ROUGE,17.10€,"12,5",,,,,,,,,17.10€
-,G D'ESTOURNEL,,MEDOC,2022,ROUGE,20.40,"13,5",,,,,,,,,
-,GOULEE BY COS D'ESTOURNEL,,MEDOC,2017,ROUGE,16.00€,"12,5",,,,,,,,,16.00€
-,CHATEAU BOURNAC,,MEDOC,2015,ROUGE,5.90€,"13,5",,,,,,,,,5.90€
-,,,,,,,,,,,,,,,,5.90€
+Producer,Wine name,Country ,Region, Vintage,Wine Color,Price,ABV%,Vivino rating,Vivino URL,Winesearcher URL,UK seller,Uk seller same vintage lowest,Uk seller same vintage Highest,Uk seller previous vintage lowest,Uk seller previous vintage highest,Unnamed: 16,Wine Searcher URL
+,Baron D�Arignac Colombard Ugni,France,IGP GERS,2023,BLANC,,,,https://www.vivino.com/GB/en/baron-d-arignac-colombard-carte-d-or/w/3194821?year=2023,,,,,,,,http://www.wine-searcher.com/find/baron+d'arignac+colombard+carte+d'or/2023
+,Baron D'Arignac Cabernet Sauvignon,France,PAYS D OC IGP,2023,ROUGE,,,3.8,https://www.vivino.com/GB/en/baron-d-arignac-cabernet-sauvignon/w/2177804?year=2023,,,,,,,,http://www.wine-searcher.com/find/baron+d'arignac+cabernet+sauvignon/2023
+,Baron D'Arignac Medium Sweet,France,VIN DE L UNION EUROPEENNE,-,BLANC,,,,,,,,,,,,
+,Baron D'Arignac Syrah Rose,France,PAYS D OC IGP,2023,ROSE,,,,https://www.vivino.com/GB/en/baron-d-arignac-syrah-rose-carte-d-or-vin-de-pays-vignobles-de-france/w/5593337?year=2023,,,,,,,,
+,"Belles Eaux ""Mistral"" Sauvignon Blanc *NEW*",France,PAYS D OC IGP,2023,BLANC,,,,,,,,,,,,
+,"Belles Eaux ""Mistral"" Chadonnay *NEW*",France,PAYS D OC IGP,2023,BLANC,,,,,,,,,,,,
+,"Belles Eaux ""Mistral"" Merlot *NEW*",France,PAYS D OC IGP,2023,ROUGE,,,,,,,,,,,,
+,"Belles Eaux ""Mistral"" Syrah *NEW*",France,PAYS D OC IGP,2022,ROUGE,,,,,,,,,,,,
+,Bistro Chic Merlot/Cabernet/Syrah,France,VIN DE FRANCE,2023,ROUGE,,,3.7,https://www.vivino.com/GB/en/bistrot-chic-rouge/w/6577644?year=2023,,,,,,,,
+,Bistro Chic Sauvignon Blanc/S�millon,France,ENTRE DEUX MERS,2023,BLANC,,,,https://www.vivino.com/GB/en/bistrot-chic-entre-deux-mers-blanc/w/6273672?year=2023,,,,,,,,http://www.wine-searcher.com/find/bistrot+chic+entre-deux-mers+blanc/2023
+,Bistro Chic Syrah/Marselan,France,PAYS D OC IGP,2023,ROUGE,,,,https://www.vivino.com/GB/en/bistrot-chic-syrah-marselan-vin-de-pays-doc/w/8226640?year=2023,,,,,,,,
+,Entre Nous Merlot/Syrah,France,IGP COTEAUX DU PONT DU GARD,2023,ROUGE,,,,https://www.vivino.com/GB/en/francois-martenot-entre-nous-fruite-et-genereux-coteaux-du-pont-du-gard/w/10590111?year=2023,,,,,,,,
+,Entre Nous Chardonnay,France,PAYS D OC IGP,2023,BLANC,,,,,,,,,,,,
+,Chevalier Alexis Lichine Cinsault Rose a vis,France,PAYS D OC IGP,2024,ROSE,,,,https://www.vivino.com/GB/en/alexis-lichine-chevalier-cinsault-rose/w/3640515?year=2024,,,,,,,,http://www.wine-searcher.com/find/alexis+lichine+chevalier+cinsault+rosé/2024
+,Chevalier Alexis Lichine Merlot,France,PAYS D OC IGP,2023,ROUGE,,,,https://www.vivino.com/GB/en/alexis-lichine-chevalier-merlot/w/1197428?year=2023,,,,,,,,http://www.wine-searcher.com/find/alexis+lichine+chevalier+merlot/2023
+,Chevalier Alexis Lichine Sauvignon,France,PAYS D OC IGP,2023,BLANC,,,,https://www.vivino.com/GB/en/alexis-lichine-chevalier-sauvignon-blanc/w/1209408?year=2023,,,,,,,,http://www.wine-searcher.com/find/alexis+lichine+chevalier+sauvignon+blanc/2023
+,Comte Alexandre Blanc,France,VIN DE L UNION EUROPEENNE,-,BLANC,,,3.3,https://www.vivino.com/GB/en/comte-alexandre-blanc/w/5087551,,,,,,,,
+,Comte Alexandre Rose,France,VIN DE L UNION EUROPEENNE,-,ROSE,,,3.6,https://www.vivino.com/GB/en/comte-alexandre-rose/w/5093458,,,,,,,,http://www.wine-searcher.com/find/comte+alexandre+rosé/-
+,Comte Alexandre Rouge,France,VIN DE L UNION EUROPEENNE,-,ROUGE,,,,,,,,,,,,
+,Dominique Baud Colombard Chardonnay,France,IGP COTES DE GASCOGNE,2023,BLANC,,,,https://www.vivino.com/GB/en/dominique-baud-colombard-chardonnay/w/1623248?year=2023,,,,,,,,
+,Dominique Baud Merlot,France,PAYS D OC IGP,2023,ROUGE,,,,https://www.vivino.com/GB/en/dominique-baud-merlot-vin-de-pays-doc/w/1977001?year=2023,,,,,,,,
+,Dominique Baud Sauvignon Blanc,France,VIN DE FRANCE,2023,BLANC,,,,https://www.vivino.com/GB/en/dominique-baud-sauvignon/w/1677414?year=2023,,,,,,,,
+,Domaine Peiriere Viognier,France,PAYS D OC IGP,2023,BLANC,,,,,,,,,,,,
+,Domaine Peiriere Pinot Noir,France,PAYS D OC IGP,2023,ROUGE,,,,,,,,,,,,
+,Jean Balmont Sauvignon,France,VIN DE FRANCE,2024,BLANC,,,,https://www.vivino.com/GB/en/jean-balmont-sauvignon/w/1225204?year=2024,,,,,,,,http://www.wine-searcher.com/find/jean+balmont+sauvignon/2024
+,Jean Balmont Cabernet Franc Rose,France,VIN DE FRANCE,2023,ROSE,,,,https://www.vivino.com/GB/en/jean-balmont-cabernet-franc-rose/w/1230976?year=2023,,,,,,,,
+,Jean Balmont Cabernet Sauvignon,France,PAYS D OC IGP,2023,ROUGE,,,,https://www.vivino.com/GB/en/jean-balmont-cabernet-sauvignon/w/2134022?year=2023,,,,,,,,http://www.wine-searcher.com/find/jean+balmont+cabernet+sauvignon/2023
+,Jean Balmont Chardonnay,France,VIN DE FRANCE,2024,BLANC,,,,https://www.vivino.com/GB/en/jean-balmont-chardonnay/w/1250485?year=2024,,,,,,,,http://www.wine-searcher.com/find/jean+balmont+chardonnay/2024
+,Jean Balmont Merlot,France,PAYS D OC IGP,2023,ROUGE,,,3.8,https://www.vivino.com/GB/en/jean-balmont-merlot/w/1950507?year=2023,,,,,,,,http://www.wine-searcher.com/find/jean+balmont+merlot/2023
+,Jean Balmont Premium Chardonnay Cork,France,VIN DE FRANCE,2024,BLANC,,,,https://www.vivino.com/GB/en/jean-balmont-premium-chardonnay/w/1426969?year=2024,,,,,,,,
+,Jean Balmont Premium Pinot Noir,France,VIN DE FRANCE,2023,ROUGE,,,,https://www.vivino.com/GB/en/jean-balmont-premium-pinot-noir/w/1542376?year=2023,,,,,,,,http://www.wine-searcher.com/find/jean+balmont+premium+pinot+noir/2023
+,Le Havre De Paix Blanc,France,IGP COTES DE GASCOGNE,2024,BLANC,,,,https://www.vivino.com/GB/en/le-havre-de-paix-blanc/w/6053168?year=2024,,,,,,,,http://www.wine-searcher.com/find/le+havre+de+paix+blanc/2024
+,Le Havre De Paix Rouge,France,IGP AUDE,2023,ROUGE,,,,https://www.vivino.com/GB/en/le-havre-de-paix-rouge/w/4016564?year=2023,,,,,,,,http://www.wine-searcher.com/find/le+havre+de+paix+rouge/2023
+,Le Havre De Paix Rose,France,IGP AUDE,2022,ROSE,,,,https://www.vivino.com/GB/en/le-havre-de-paix-rose-aude/w/6451215?year=2022,,,,,,,,
+,Les Vignerons Carignan Shiraz,France,VIN DE FRANCE,2023,ROUGE,,,,https://www.vivino.com/GB/en/bertrand-et-vincent-les-vignerons-carignan-syrah/w/5282336?year=2023,,,,,,,,
+,Les Vignerons Grenache Merlot Ros�,France,VIN DE FRANCE,2024,ROSE,,,,https://www.vivino.com/GB/en/vignerons-63291-l-experience-grenache-merlot-rose/w/2264106?year=2024,,,,,,,,http://www.wine-searcher.com/find/les+vignerons+l'experience+grenache+-+merlot+rosé/2024
+,Les Vignerons Grenache Pinot Noir,France,VIN DE FRANCE,2023,ROUGE,,,,https://www.vivino.com/GB/en/vignerons-63291-l-entente-grenache-pinot-noir/w/2122739?year=2023,,,,,,,,http://www.wine-searcher.com/find/les+vignerons+l'entente+grenache+-+pinot+noir/2023
+,Les Vignerons Colombard / Sauvignon,France,VIN DE FRANCE,2023,BLANC,,,,https://www.vivino.com/GB/en/les-genet-colombard-sauvignon-blanc/w/11640450?year=2023,,,,,,,,
+,Louis Eschenauer Syrah (cork),France,PAYS D OC IGP,2023,ROUGE,,,3.7,https://www.vivino.com/GB/en/fr-louis-eschenauer-pays-syrah/w/2142981?year=2023,,,,,,,,http://www.wine-searcher.com/find/louis+eschenauer+syrah/2023
+,Louis Eschenauer Cab Sauv Vis,France,PAYS D OC IGP,2023,,,,3.7,https://www.vivino.com/GB/en/fr-louis-eschenauer-cabernet-sauvignon/w/2186560?year=2023,,,,,,,,http://www.wine-searcher.com/find/louis+eschenauer+cabernet+sauvignon/2023
+,,,,2023,,,,3.7,https://www.vivino.com/GB/en/montaignan-sauvignon-blanc/w/7095017?year=2023,,,,,,,,
